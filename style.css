@@ -1,0 +1,84 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    margin: 0px 50px 0 50px;
+    background-color:rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+}
+h4{
+    color:rgb(79, 151, 234) ;
+}
+.cricketer{
+    color: orange;
+}
+.Vir{
+    color:white;
+}
+.KING{
+    font-weight: bolder;
+    color:white;
+    font-size: large;
+}
+.VIRAT-KOHLI{
+    color:red;
+    font-weight:bolder;
+    font-size: larger;
+}
+.virat5-img{
+    height:500px;
+    width:50%;
+    margin-left: 24%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.virat2-img{
+    height: 500px;
+    width:50%;
+    margin-left: 24%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.main{
+    flex:1;
+}
+.virat1-img{
+    height:500px;
+    float: left;
+    width:500px;
+}
+.virat4-img{
+    height:500px;
+    float:right;
+    width:500px;
+    margin-left:160px;
+}
+.left{
+    float: left;
+}
+.right{
+    float:right;
+}
+h1{
+    color:white;
+}
+h3{
+    color:white;
+}
+h5{
+    text-align: center;
+    color: rgb(129, 223, 255);
+}
+p{
+    text-align: center;
+    color: rgb(79, 151, 234);
+}
+@media(max-width: 680px) {
+    .virat1-img{
+        width:150px;
+        height:250px;
+    }
+    .virat4-img{
+        width:150px;
+        height:250px;
+    }
+}
